@@ -1,0 +1,24 @@
+html{
+    font-size: 62.5%; //making a 16px rem a 10px, easier to work with 10 px as 1 rem(mathwise
+}
+
+body{
+    
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: $med-size;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight:bold;
+}
+
+//rem has better support for customibility than pixels
